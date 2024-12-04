@@ -7,13 +7,6 @@ For each match, you have:
     - Eliminations (0-99)
     - Materials Used (0-999)
 
-
-    1. The average score (to balance difficulty in future levels)
-    2. The high score and low score
-    3. Count how many players achieved "Pro Status" (score >= 750)
-    4. Return these stats in a suitable format
-
-
 Calculate:
 
     - DPM (Damage Per Minute) = Total Damage / Survival Time
@@ -41,6 +34,5 @@ Expected output:
     "efficiency_rating": 1.33,
     "combat_score": 80.53,
     "performance_tier": "Silver",
-    "above_average": False  # compared to baseline of 85
 }
 ```
