@@ -1,8 +1,5 @@
 # Battle Royale Match Analyzer
 
-You're developing statistics for a Battle Royale game like Fortnite. Write a function that analyzes a player's match data to calculate their combat efficiency metrics.
-
-
 For each match, you have:
 
     - Damage Dealt (0-5000)
