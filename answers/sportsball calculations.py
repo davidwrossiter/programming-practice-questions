@@ -15,7 +15,7 @@ def  calc(info):
             highest = [i]
     output[bestScorer]=highest
     output[overallPerformance]=round(average/length, 2)
-    return info
+    return output
 
 stuff={
     "John Smith":[2, 3, 1],
