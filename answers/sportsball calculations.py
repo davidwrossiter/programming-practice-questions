@@ -10,11 +10,11 @@ def  calc(info):
             total +=j
             length += 1
         output[i+" score total"] = total
-    for i in output.keys():
-        if output[i] > highest:
-            highest = [i]
-    output[bestScorer]=highest
-    output[overallPerformance]=round(average/length, 2)
+        if total>highest:
+            highest=total
+            best=i
+    output["bestScorer"]=best + " with a total score of " + str(highest)
+    output["overallPerformance"]=round(average/length, 2)
     return output
 
 stuff={
