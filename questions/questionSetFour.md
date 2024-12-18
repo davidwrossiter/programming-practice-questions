@@ -43,10 +43,10 @@ order = {
 Expected output:
 ```
 {
-    "subtotal": 22.78,
-    "discount": 4.56,  # (20% happy hour + 10% combo)
-    "delivery_fee": 2.50,
-    "total": 20.72,
-    "prep_time": 19  # minutes
+    'subtotal': 23.38,
+    'discount': 2.34,
+    'delivery_fee': 2.5,
+    'total': 23.54,
+    'prep_time': 21
 }
 ```
