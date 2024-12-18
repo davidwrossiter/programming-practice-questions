@@ -18,12 +18,12 @@ Toppings (£0.80 each):
 
 Special Rules:
 
-    Happy Hour (5PM-7PM): 20% discount
     Prep Time: 15 mins base + 2 mins per topping
     Large Order Bonus: Orders over £30 get free delivery (normally £2.50)
     Combo Deal: When ordering 2+ pizzas, apply 10% discount
 
 Example input:
+
 ```
 order = {
     "pizzas": [
@@ -36,7 +36,6 @@ order = {
             "toppings": ["extra cheese"]
         }
     ],
-    "time": "17:30",  # 5:30 PM
     "delivery": True
 }
 ```
