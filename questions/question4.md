@@ -44,7 +44,7 @@ Expected output:
 ```
 {
     "subtotal": 22.78,
-    "discount": 4.56,  # (20% happy hour + 10% combo)
+    "discount": 4.56,  # (10% combo)
     "delivery_fee": 2.50,
     "total": 20.72,
     "prep_time": 19  # minutes
