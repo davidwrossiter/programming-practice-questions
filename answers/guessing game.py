@@ -3,10 +3,10 @@ def validateguess(answer, guess, mode):
     correct = 0
     for i in range(len(guess)):
         if guess[i] == answer[i]:
-            positions[i] = guess[i]
+            positions[i+1] = guess[i]
             correct += 1
         else:
-            positions[i] = "?"
+            positions[i+1] = "?"
     if mode == 0:
         print(positions)
     else:
