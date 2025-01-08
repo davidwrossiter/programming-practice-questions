@@ -19,6 +19,7 @@ try:
     length = int(input("please select length of password to guess (4 is recomended)\n>>>"))
 except(ValueError):
     print("please input a number *restart program*")
+    exit()
 if input("please type 'easy' (without quotes) if you want to play on easy mode \n>>>") == "easy":
     modeglobal = 0
 else:
